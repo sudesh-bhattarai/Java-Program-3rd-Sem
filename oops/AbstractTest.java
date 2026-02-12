@@ -1,6 +1,6 @@
-abstract class Animal {
+abstract class Animal4 {
     String name;
-    Animal(String name) {
+    Animal4(String name) {
         this.name = name;
     }
     abstract void sound();
@@ -11,7 +11,7 @@ abstract class Animal {
 interface Pet {
     void play();
 }
-class Dog extends Animal implements Pet {
+class Dog extends Animal4  implements Pet {
     Dog(String name) {
         super(name);
     }
