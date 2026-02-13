@@ -8,7 +8,6 @@ bin/
 *.project
 *.classpath
 *.settings/
-
 # Ignore OS junk files
 .DS_Store
 Thumbs.db
