@@ -11,7 +11,7 @@ abstract class Animal4 {
 interface Pet {
     void play();
 }
-class Dog extends Animal4  implements Pet {
+class Dog extends Animal4 implements Pet {
     Dog(String name) {
         super(name);
     }
